@@ -1,0 +1,195 @@
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-image: url(../Images/bokeh.0.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+}
+h1 {
+color: #6BE7FF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+aside {
+    width: 150px;
+    height: 1500px;
+    background-color: green;
+    float: left;
+    clear: both;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+header {
+    width: 1280px;
+    height: 250px;
+    background-image: url(../Images/header.jpg);
+	background-repeat:none;
+	background-position:center;
+	margin:10px 0px
+}
+main {
+    width: 1060px;
+    padding-left: 20px;
+    margin-left: 170px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    height: 1650px;
+}
+
+
+footer{
+    width: 1280px;
+    height: 50px;
+    background-color: #646464;
+    text-align: center;
+}
+#container{
+	width:1280px;
+	height:auto;
+background-color:#FFFFFF
+}
+article{
+    margin-bottom: 30px;
+}
+.floatleft{
+	float:left
+}nav {
+    width: 1280px;
+    display: inline;
+    position: fixed;
+    top: 10px;
+    background-color: #FFFFFF;
+    height: 50px;
+    margin-top: -10px;
+}
+#container nav li {
+    width: 112px;
+    margin: 0px 40px 0px 0px;
+    display: inline;
+}
+#container nav ul {
+    width: 800px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+}
+nav a:link {
+    color: #6BE7FF;
+    text-decoration: none;
+	padding:10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #B937FF;
+	padding:10px;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color:#6BE7FF;
+	padding:10px;
+	border-radius:20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+	padding:10px;
+}
+.submit_btn   {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(107,231,255,1.00);
+    color: rgba(255,255,255,1.00);
+    font-size: 15px;
+    
+}
+.submit_btn:hover
+{ -webkit-box-shadow: 6px 6px 35px 1px rgba(0,0,0,1.00);
+    box-shadow: 6px 6px 35px 1px rgba(0,0,0,1.00);
+}
+body {
+}
+.column{
+    width: 250px;
+    height: 750px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+video {
+    width: 600px;
+    height: 600px;
+    margin-top: 96px;
+}
+
+
+
+@media (max-width : 1024px ){
+	#container{
+		width:798px;
+	}
+	header{
+		width:978px;
+	}
+	nav {
+		width:978px;
+	}
+	main{
+		width:768px;
+		height:2500px;
+	}
+	footer{
+		width:978px;
+	}
+	.column {
+		margin:0px 20px 0px 20px;
+	}
+}
+
+@media only screen and (max-width:375px){
+	#container{
+		width:300px;
+	}
+	header{
+		width:300px;
+		background-image:url("../Images/header300px.jpg")
+	}
+	nav {
+		width:300px;
+		position: static;
+		height:200px;
+	}
+	main{
+    width: 300px;
+		
+	}
+	footer{
+		width:300px;
+	}
+	aside {
+		display:none;
+	}
+}
